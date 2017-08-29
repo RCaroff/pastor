@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+import IQKeyboardManager
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,10 +18,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        FirebaseApp.configure()
+        IQKeyboardManager.shared().isEnabled = true
+        
         return true
     }
 
+    
+    func loadMain() {
+        guard let nc = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as? UINavigationController else { return }
+        //guard let mainVC = nc.viewControllers.first as? PassListViewController else { return }
+        
+        guard let rootVC = self.window?.rootViewController else { return }
+        UIView.transition(from: rootVC.view, to: nc.view, duration: 0.2, options: .transitionCrossDissolve) { finish in
+            if !finish { return }
+            self.window?.rootViewController = nc
+        }
+    }
+    
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

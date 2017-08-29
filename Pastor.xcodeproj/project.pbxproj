@@ -8,24 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		26CE328740943D784AA4028E /* Pods_Pastor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DD4023D305D0CD03B44F29 /* Pods_Pastor.framework */; };
+		72468CE41F141C2C000C77C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72468CE31F141C2C000C77C9 /* GoogleService-Info.plist */; };
+		72468CE61F141E03000C77C9 /* Pass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72468CE51F141E03000C77C9 /* Pass.swift */; };
+		72468CE81F141F98000C77C9 /* PassGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72468CE71F141F98000C77C9 /* PassGeneratorViewController.swift */; };
+		72468CEB1F1420E9000C77C9 /* PassListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72468CEA1F1420E9000C77C9 /* PassListViewModel.swift */; };
+		72468CED1F142102000C77C9 /* PassListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72468CEC1F142102000C77C9 /* PassListRepository.swift */; };
+		72468CEF1F142F41000C77C9 /* PassListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72468CEE1F142F41000C77C9 /* PassListTableViewCell.swift */; };
+		72468CF11F143129000C77C9 /* PassVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72468CF01F143129000C77C9 /* PassVM.swift */; };
 		728B41881F14190100E373E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728B41871F14190100E373E4 /* AppDelegate.swift */; };
-		728B418A1F14190100E373E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728B41891F14190100E373E4 /* ViewController.swift */; };
+		728B418A1F14190100E373E4 /* PassListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728B41891F14190100E373E4 /* PassListViewController.swift */; };
 		728B418D1F14190100E373E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728B418B1F14190100E373E4 /* Main.storyboard */; };
 		728B418F1F14190100E373E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728B418E1F14190100E373E4 /* Assets.xcassets */; };
 		728B41921F14190100E373E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728B41901F14190100E373E4 /* LaunchScreen.storyboard */; };
+		72C54EA41F4EC24B007EBE2B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C54EA31F4EC24B007EBE2B /* LoginViewController.swift */; };
+		72C54EA61F4EC265007EBE2B /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C54EA51F4EC265007EBE2B /* Auth.storyboard */; };
+		72C54EA81F4EC448007EBE2B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C54EA71F4EC448007EBE2B /* LoginViewModel.swift */; };
+		72C54EAA1F4EC4FA007EBE2B /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C54EA91F4EC4FA007EBE2B /* LoginRepository.swift */; };
+		72C54EAF1F504788007EBE2B /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C54EAE1F504788007EBE2B /* SubscribeViewController.swift */; };
+		72C54EB11F5047AD007EBE2B /* SubscribeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C54EB01F5047AD007EBE2B /* SubscribeViewModel.swift */; };
+		72C54EB31F505495007EBE2B /* SubscribeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C54EB21F505495007EBE2B /* SubscribeRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33DD4023D305D0CD03B44F29 /* Pods_Pastor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pastor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D667CDA77F2E4B44F41A411 /* Pods-Pastor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pastor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pastor/Pods-Pastor.debug.xcconfig"; sourceTree = "<group>"; };
 		5E5E3227427C5C192F26B595 /* Pods-Pastor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pastor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pastor/Pods-Pastor.release.xcconfig"; sourceTree = "<group>"; };
+		72468CE31F141C2C000C77C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		72468CE51F141E03000C77C9 /* Pass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pass.swift; sourceTree = "<group>"; };
+		72468CE71F141F98000C77C9 /* PassGeneratorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassGeneratorViewController.swift; sourceTree = "<group>"; };
+		72468CEA1F1420E9000C77C9 /* PassListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassListViewModel.swift; sourceTree = "<group>"; };
+		72468CEC1F142102000C77C9 /* PassListRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassListRepository.swift; sourceTree = "<group>"; };
+		72468CEE1F142F41000C77C9 /* PassListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassListTableViewCell.swift; sourceTree = "<group>"; };
+		72468CF01F143129000C77C9 /* PassVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassVM.swift; sourceTree = "<group>"; };
 		728B41841F14190100E373E4 /* Pastor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pastor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728B41871F14190100E373E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		728B41891F14190100E373E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		728B41891F14190100E373E4 /* PassListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassListViewController.swift; sourceTree = "<group>"; };
 		728B418C1F14190100E373E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		728B418E1F14190100E373E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		728B41911F14190100E373E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		728B41931F14190100E373E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72C54EA31F4EC24B007EBE2B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		72C54EA51F4EC265007EBE2B /* Auth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		72C54EA71F4EC448007EBE2B /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		72C54EA91F4EC4FA007EBE2B /* LoginRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		72C54EAE1F504788007EBE2B /* SubscribeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
+		72C54EB01F5047AD007EBE2B /* SubscribeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscribeViewModel.swift; sourceTree = "<group>"; };
+		72C54EB21F505495007EBE2B /* SubscribeRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscribeRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +77,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		72468CE91F1420B2000C77C9 /* PassList */ = {
+			isa = PBXGroup;
+			children = (
+				728B41891F14190100E373E4 /* PassListViewController.swift */,
+				72468CEA1F1420E9000C77C9 /* PassListViewModel.swift */,
+				72468CEC1F142102000C77C9 /* PassListRepository.swift */,
+				72468CEE1F142F41000C77C9 /* PassListTableViewCell.swift */,
+				72468CF01F143129000C77C9 /* PassVM.swift */,
+			);
+			name = PassList;
+			sourceTree = "<group>";
+		};
 		728B417B1F14190100E373E4 = {
 			isa = PBXGroup;
 			children = (
@@ -70,14 +110,48 @@
 		728B41861F14190100E373E4 /* Pastor */ = {
 			isa = PBXGroup;
 			children = (
+				72C54EA21F4EC235007EBE2B /* Auth */,
+				72468CE91F1420B2000C77C9 /* PassList */,
 				728B41871F14190100E373E4 /* AppDelegate.swift */,
-				728B41891F14190100E373E4 /* ViewController.swift */,
+				72468CE31F141C2C000C77C9 /* GoogleService-Info.plist */,
 				728B418B1F14190100E373E4 /* Main.storyboard */,
 				728B418E1F14190100E373E4 /* Assets.xcassets */,
 				728B41901F14190100E373E4 /* LaunchScreen.storyboard */,
 				728B41931F14190100E373E4 /* Info.plist */,
+				72468CE51F141E03000C77C9 /* Pass.swift */,
+				72468CE71F141F98000C77C9 /* PassGeneratorViewController.swift */,
 			);
 			path = Pastor;
+			sourceTree = "<group>";
+		};
+		72C54EA21F4EC235007EBE2B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				72C54EAD1F504765007EBE2B /* Subscribe */,
+				72C54EAC1F50475A007EBE2B /* Login */,
+				72C54EA51F4EC265007EBE2B /* Auth.storyboard */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		72C54EAC1F50475A007EBE2B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				72C54EA31F4EC24B007EBE2B /* LoginViewController.swift */,
+				72C54EA71F4EC448007EBE2B /* LoginViewModel.swift */,
+				72C54EA91F4EC4FA007EBE2B /* LoginRepository.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		72C54EAD1F504765007EBE2B /* Subscribe */ = {
+			isa = PBXGroup;
+			children = (
+				72C54EAE1F504788007EBE2B /* SubscribeViewController.swift */,
+				72C54EB01F5047AD007EBE2B /* SubscribeViewModel.swift */,
+				72C54EB21F505495007EBE2B /* SubscribeRepository.swift */,
+			);
+			name = Subscribe;
 			sourceTree = "<group>";
 		};
 		A540634E601A4DD37E565A4F /* Frameworks */ = {
@@ -152,6 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				728B41921F14190100E373E4 /* LaunchScreen.storyboard in Resources */,
+				72468CE41F141C2C000C77C9 /* GoogleService-Info.plist in Resources */,
+				72C54EA61F4EC265007EBE2B /* Auth.storyboard in Resources */,
 				728B418F1F14190100E373E4 /* Assets.xcassets in Resources */,
 				728B418D1F14190100E373E4 /* Main.storyboard in Resources */,
 			);
@@ -166,9 +242,30 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pastor/Pods-Pastor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Sugar/Sugar.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sugar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -196,13 +293,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pastor-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -212,8 +312,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				728B418A1F14190100E373E4 /* ViewController.swift in Sources */,
+				72C54EB31F505495007EBE2B /* SubscribeRepository.swift in Sources */,
+				72C54EA41F4EC24B007EBE2B /* LoginViewController.swift in Sources */,
+				72468CEB1F1420E9000C77C9 /* PassListViewModel.swift in Sources */,
+				72468CF11F143129000C77C9 /* PassVM.swift in Sources */,
+				72468CEF1F142F41000C77C9 /* PassListTableViewCell.swift in Sources */,
+				728B418A1F14190100E373E4 /* PassListViewController.swift in Sources */,
+				72468CE61F141E03000C77C9 /* Pass.swift in Sources */,
 				728B41881F14190100E373E4 /* AppDelegate.swift in Sources */,
+				72C54EAA1F4EC4FA007EBE2B /* LoginRepository.swift in Sources */,
+				72C54EB11F5047AD007EBE2B /* SubscribeViewModel.swift in Sources */,
+				72468CED1F142102000C77C9 /* PassListRepository.swift in Sources */,
+				72C54EAF1F504788007EBE2B /* SubscribeViewController.swift in Sources */,
+				72C54EA81F4EC448007EBE2B /* LoginViewModel.swift in Sources */,
+				72468CE81F141F98000C77C9 /* PassGeneratorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +451,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VM99UN38UP;
 				INFOPLIST_FILE = Pastor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rcaroff.Pastor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VM99UN38UP;
 				INFOPLIST_FILE = Pastor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rcaroff.Pastor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -379,6 +493,7 @@
 				728B41981F14190100E373E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
