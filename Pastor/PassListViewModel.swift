@@ -44,7 +44,7 @@ class PassListViewModel: NSObject, PassListViewModelInput, PassListViewModelOutp
         
         self.copyTapped.asObservable()
         .subscribe(onNext: { password in
-            // TODO : copy to clipboard
+            UIPasteboard.general.string = password
             print("copied to clipboard")
         })
         .disposed(by: disposeBag)
@@ -54,11 +54,9 @@ class PassListViewModel: NSObject, PassListViewModelInput, PassListViewModelOutp
             
         })
         .disposed(by: disposeBag)
-        
     }
     
-    
-    
+
     
     private func loadDataSource() {
         self.repository.getPassList().asObservable()

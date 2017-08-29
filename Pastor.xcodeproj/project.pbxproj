@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		26CE328740943D784AA4028E /* Pods_Pastor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DD4023D305D0CD03B44F29 /* Pods_Pastor.framework */; };
+		723872F71F55AB7F00CFC990 /* PassGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723872F61F55AB7F00CFC990 /* PassGeneratorViewController.swift */; };
 		72468CE41F141C2C000C77C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72468CE31F141C2C000C77C9 /* GoogleService-Info.plist */; };
 		72468CE61F141E03000C77C9 /* Pass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72468CE51F141E03000C77C9 /* Pass.swift */; };
-		72468CE81F141F98000C77C9 /* PassGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72468CE71F141F98000C77C9 /* PassGeneratorViewController.swift */; };
 		72468CEB1F1420E9000C77C9 /* PassListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72468CEA1F1420E9000C77C9 /* PassListViewModel.swift */; };
 		72468CED1F142102000C77C9 /* PassListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72468CEC1F142102000C77C9 /* PassListRepository.swift */; };
 		72468CEF1F142F41000C77C9 /* PassListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72468CEE1F142F41000C77C9 /* PassListTableViewCell.swift */; };
@@ -33,9 +33,9 @@
 		33DD4023D305D0CD03B44F29 /* Pods_Pastor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pastor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D667CDA77F2E4B44F41A411 /* Pods-Pastor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pastor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pastor/Pods-Pastor.debug.xcconfig"; sourceTree = "<group>"; };
 		5E5E3227427C5C192F26B595 /* Pods-Pastor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pastor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pastor/Pods-Pastor.release.xcconfig"; sourceTree = "<group>"; };
+		723872F61F55AB7F00CFC990 /* PassGeneratorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassGeneratorViewController.swift; sourceTree = "<group>"; };
 		72468CE31F141C2C000C77C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		72468CE51F141E03000C77C9 /* Pass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pass.swift; sourceTree = "<group>"; };
-		72468CE71F141F98000C77C9 /* PassGeneratorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassGeneratorViewController.swift; sourceTree = "<group>"; };
 		72468CEA1F1420E9000C77C9 /* PassListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassListViewModel.swift; sourceTree = "<group>"; };
 		72468CEC1F142102000C77C9 /* PassListRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassListRepository.swift; sourceTree = "<group>"; };
 		72468CEE1F142F41000C77C9 /* PassListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassListTableViewCell.swift; sourceTree = "<group>"; };
@@ -77,6 +77,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		723872F31F55AAFD00CFC990 /* PassGen */ = {
+			isa = PBXGroup;
+			children = (
+				723872F61F55AB7F00CFC990 /* PassGeneratorViewController.swift */,
+			);
+			name = PassGen;
+			sourceTree = "<group>";
+		};
 		72468CE91F1420B2000C77C9 /* PassList */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +118,7 @@
 		728B41861F14190100E373E4 /* Pastor */ = {
 			isa = PBXGroup;
 			children = (
+				723872F31F55AAFD00CFC990 /* PassGen */,
 				72C54EA21F4EC235007EBE2B /* Auth */,
 				72468CE91F1420B2000C77C9 /* PassList */,
 				728B41871F14190100E373E4 /* AppDelegate.swift */,
@@ -119,7 +128,6 @@
 				728B41901F14190100E373E4 /* LaunchScreen.storyboard */,
 				728B41931F14190100E373E4 /* Info.plist */,
 				72468CE51F141E03000C77C9 /* Pass.swift */,
-				72468CE71F141F98000C77C9 /* PassGeneratorViewController.swift */,
 			);
 			path = Pastor;
 			sourceTree = "<group>";
@@ -321,11 +329,11 @@
 				72468CE61F141E03000C77C9 /* Pass.swift in Sources */,
 				728B41881F14190100E373E4 /* AppDelegate.swift in Sources */,
 				72C54EAA1F4EC4FA007EBE2B /* LoginRepository.swift in Sources */,
+				723872F71F55AB7F00CFC990 /* PassGeneratorViewController.swift in Sources */,
 				72C54EB11F5047AD007EBE2B /* SubscribeViewModel.swift in Sources */,
 				72468CED1F142102000C77C9 /* PassListRepository.swift in Sources */,
 				72C54EAF1F504788007EBE2B /* SubscribeViewController.swift in Sources */,
 				72C54EA81F4EC448007EBE2B /* LoginViewModel.swift in Sources */,
-				72468CE81F141F98000C77C9 /* PassGeneratorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

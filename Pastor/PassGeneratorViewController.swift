@@ -2,7 +2,7 @@
 //  PassGeneratorViewController.swift
 //  Pastor
 //
-//  Created by Rémi Caroff on 10/07/2017.
+//  Created by Rémi Caroff on 29/08/2017.
 //  Copyright © 2017 Rémi Caroff. All rights reserved.
 //
 

@@ -21,6 +21,16 @@ class PassListViewController: UIViewController {
         self.viewModel = PassListViewModel(with: PassListRepository())
         self.setupTableView()
         self.viewModel.loadData.onNext(true)
+        self.setupAddButton()
+    }
+    
+    func setupAddButton() {
+        let addItem = UIBarButtonItem(barButtonSystemItem: .add, target: nil, action: nil)
+        addItem.rx.tap.bind {
+            self.performSegue(withIdentifier: "showGen", sender: nil)
+        }
+        .disposed(by: disposeBag)
+        self.navigationItem.setRightBarButton(addItem, animated: true)
     }
     
     func setupTableView() {
